@@ -13,11 +13,10 @@ export default function Resume() {
           </p>
           <p className="text-gray-400">Certificate in Mathematics</p>
           <p className="mt-2 text-gray-300">
-            <strong>Relevant Coursework:</strong> Database Management Systems, Algorithms, Machine Organization, Linear Algebra, Multivariable Calculus, Probability Theory, Econometrics, Game Theory, Theory of Single Variable Calculus
+            <strong>Relevant Coursework:</strong> Operating Systems, Computer Networks, Database Management Systems, Algorithms, Machine Organization, Data Analytics, Linear Algebra, Multivariable Calculus, Combinatorics, Econometrics, Game Theory
           </p>
         </div>
   
-        {/* Experience */}
         <h2 className="text-3xl font-bold mb-6">Experience</h2>
         <div className="mb-6">
           <h3 className="text-xl font-semibold">Software Engineering Intern — Whova, Inc.</h3>

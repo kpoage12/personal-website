@@ -19,10 +19,10 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">
         <div className="text-center md:text-left md:w-1/2">
           <h1 className="text-5xl font-bold">
-            Hi, I’m Kyle 👋
+            Hi, I'm Kyle 👋
           </h1>
           <p className="mt-4 text-lg text-gray-300">
-            I’m a CS + Econ student with a Certificate in Mathematics, aspiring to become a software engineer.
+            I'm a CS + Econ student with a Certificate in Mathematics, aspiring to become a software engineer.
           </p>
           <div className="mt-6 flex space-x-4 justify-center md:justify-start">
             <button className="bg-blue-600 px-4 py-2 rounded-md text-white"><a href="#resume">View my Resume</a></button>
@@ -30,7 +30,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Right side: Photo */}
         <div className="mt-10 md:mt-0 md:w-1/3 flex justify-center">
           <img
             src="/headshot.jpg"
@@ -41,20 +40,18 @@ export default function Home() {
       </section>
 
 
-      {/* subtle divider */}
       <div className="mx-auto max-w-6xl px-6">
         <div className="h-px w-full bg-gradient-to-r from-transparent via-gray-700 to-transparent" />
       </div>
 
-      {/* About */}
       <section id="about" className="mx-auto max-w-6xl px-6 py-24">
         <h2 className="text-3xl md:text-4xl font-semibold">About Me</h2>
         <p className="mt-4 text-gray-300 leading-relaxed">
-          I’m a junior at the University of Wisconsin–Madison studying Computer Science,
-          Economics, and a Certificate in Mathematics. I’ve been a Software Engineering Intern at Whova and
-          an Undergraduate Teaching Assistant for Programming III at The University of Wisconsin–Madison. I like building
-          thoughtful, reliable software and working across the stack—from APIs and data
-          models to clean, responsive UIs.
+          I'm a senior at the University of Wisconsin-Madison studying Computer Science,
+          Economics, and a Certificate in Mathematics. I've been a Software Engineering Intern at Whova and
+          an Undergraduate Teaching Assistant for Programming III (Advanced Java Programming and Programming tools) at The University of Wisconsin-Madison. Right now, I'm working on a 
+          Capstone Project with Capital One where we're designing and deploying a cloud-native, event-driven fraud detection system on AWS to enable real-time transaction scoring and automated customer fraud alerts.
+          I like building thoughtful, reliable software and working across the stack.
         </p>
 
         {/* Optional: quick facts grid */}
@@ -62,13 +59,13 @@ export default function Home() {
           <div className="rounded-2xl border border-gray-800 p-5">
             <h3 className="font-medium">Education</h3>
             <p className="mt-2 text-gray-300">
-              UW–Madison · B.S. CS & Econ · GPA 3.81 · Certificate in Mathematics
+              UW-Madison · B.S. CS & Econ · GPA 3.83 · Certificate in Mathematics
             </p>
           </div>
           <div className="rounded-2xl border border-gray-800 p-5">
             <h3 className="font-medium">Focus</h3>
             <p className="mt-2 text-gray-300">
-              Full-stack, APIs (Django/Flask), Python, Java, React
+              Full-stack, APIs (Django/Flask), Python, Java, React, C/C++
             </p>
           </div>
         </div>
@@ -182,7 +179,6 @@ export default function Home() {
       </div>
 
 
-      {/* Contact */}
       <section id="contact" className="mx-auto max-w-6xl px-6 py-24">
         <h2 className="text-3xl md:text-4xl font-semibold">Contact</h2>
         <p className="mt-4 text-gray-300">
