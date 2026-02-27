@@ -49,7 +49,7 @@ export default function Home() {
         <p className="mt-4 text-gray-300 leading-relaxed">
           I'm a senior at the University of Wisconsin-Madison studying Computer Science,
           Economics, and a Certificate in Mathematics. I've been a Software Engineering Intern at Whova and
-          an Undergraduate Teaching Assistant for Programming III (Advanced Java Programming and Programming tools) at The University of Wisconsin-Madison. Right now, I'm working on a 
+          an Undergraduate Teaching Assistant for Programming III (Advanced Java Programming and Programming Tools) at The University of Wisconsin-Madison. Right now, I'm working on a 
           Capstone Project with Capital One where we're designing and deploying a cloud-native, event-driven fraud detection system on AWS to enable real-time transaction scoring and automated customer fraud alerts.
           I like building thoughtful, reliable software and working across the stack.
         </p>
